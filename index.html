@@ -1,0 +1,25 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Celsia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+    <h1>Carga de Datos de Clientes</h1>
+    <form action="procesar_cliente.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="archivo_cliente">
+        <input type="submit" value="Cargar Datos de Clientes">
+    </form>
+    </div>
+
+    <div class="card">
+    <h1>Carga de Datos de Facturación</h1>
+    <form action="procesar_factura.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="archivo_factura">
+        <input type="submit" value="Cargar Datos de Facturación">
+    </form>
+    </div>
+</body>
+</html>
